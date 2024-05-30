@@ -5,7 +5,9 @@ import json
 from google.cloud import translate_v2 as translate
 from bs4 import BeautifulSoup
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'C:/Users/asus/Desktop/технический словарь/eastern-archive-424609-f2-0c8886450710.json'
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = os.path.join(current_directory, 'eastern-archive-424609-f2-0c8886450710.json')
 
 def initialize_translate_client():
     return translate.Client()
@@ -106,7 +108,8 @@ def main():
         print(f"Ошибка инициализации клиента перевода: {e}")
         return
 
-    russian_terms = read_terms('C:/Users/asus/Desktop/технический словарь/technical_terms.txt')
+    russian_terms_file = os.path.join(current_directory, 'technical_term.txt')
+    russian_terms = read_terms(russian_terms_file)
     if not russian_terms:
         print("Нет терминов для перевода.")
         return
@@ -126,7 +129,8 @@ def main():
                 'article': "Не удалось найти статью на данную тему"
             }
 
-    save_dictionary(articles_dictionary, 'C:/Users/asus/Desktop/технический словарь/technical_dictionary_with_articles.json')
+    output_file_path = os.path.join(current_directory, 'technical_dictionary_with_articles.json')
+    save_dictionary(articles_dictionary, output_file_path)
 
 if __name__ == "__main__":
     main()
