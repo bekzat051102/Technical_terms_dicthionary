@@ -108,7 +108,7 @@ def main():
         print(f"Ошибка инициализации клиента перевода: {e}")
         return
 
-    russian_terms_file = os.path.join(current_directory, 'technical_term.txt')
+    russian_terms_file = os.path.join(current_directory, 'technical_terms.txt')
     russian_terms = read_terms(russian_terms_file)
     if not russian_terms:
         print("Нет терминов для перевода.")
