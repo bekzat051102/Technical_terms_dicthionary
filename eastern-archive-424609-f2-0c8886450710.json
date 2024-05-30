@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "eastern-archive-424609-f2",
+  "private_key_id": "0c888645071005bc612076bbbb7eaffcfc6792a5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDwBo4h1x3WF6M2\nEYekTM3EKVy9hJmQSkO9sY22ErCq3PXmJsaJES6iA3aZ7vXW16iih+8w7eCOtvga\n3iT12FR8GBaLosBN85bANLMXbcp8T2nP63ygXbjSgibTnJfmXwrVG0nhqr5wpUVv\nGYs/Av4vBF0SFrMLQZsiHffMOJxaPcnvNbrjNMwgO3EzZEoEfFQ5e3g0eGffgjbD\nNTG9cUFgY3Dlu1HpX8B+kjw7NOjKy00gZRYPwQnbmlPwMdRCTDU/pHdWvXDPVTqh\n67PlEF5JBRkgtvZmFoZXpQFVyqahtbjJblesLhoL10RWarHaR4OXLOJWnGwjeWi2\nOfgWe/shAgMBAAECggEAA7WCuRE1o1oj+AsUHbrf+b9ewPkXbUVYA9KOaUMzfJ7v\nq/LiwdHInulbOfqJTQyx5PHRPXAaFpN7TNE8qInDV7Pwtn99PbEhReLklvS/5p0M\nqlFSCJl9KH/ZTy8f8efrYzbV1NdcVDHaG2r9adPDSzVD1cqQ8Yg96Cx20KaZ7Csp\nSein8yROlKf7CLiOWzREnv/Q34YfM29ndfp50Uv6gaP9wPuBVf410SUvMvUQTeJm\n+uEGthaJLdKVgwYvok/8KDtjos+W8GJyLVoKmvEoV8OM5xohUkN9n8NlbvkjFhf7\nsNAk4jOYGUhC2OByZwVXgGsrLn7lJkc0jzkv3F++AQKBgQD82tK37fwtZjxcT+S3\n58v5ro8CmW567ZAn+OzN1Iz8s/CT3oLyuZyvwXww5LfN2NCRx2MINl8rrMwzpaDY\nSXhi+rBOHE3XB9Wc499uvpnOZDJlzHSwtZcvCUvTWN/ENHimWxj9HjblEV1JdBp8\n3WmSlm8WHAFMhiHFltXEXapiAQKBgQDzAuEr0WUmEhGMzMnAYolj1gZMpcaGd0Va\nXPAN1KxLZ89u3DJ0HuqaaJu0Q9m5bEJiG1Gsn93Wutg/b3psN3ztJNyveDtysu75\n3M0DgF9QF+mfUAxKWGz6tO80g65yKdqUdBQiBmpWdtOngli7KVe/F06KB2G+fld/\nHmmrwXNZIQKBgFYgZxQVcQc5wqei4wItZ1IVvkqhXntqveaPqIF3u8o7tF95tFrf\nFFrdaeLxlRX9mxV8t+PNOV+UDT4uVXo2lFYKk9EXXQA4f+9fwvRi4drmUDBSkxC5\n2dRAs1468IVRZiMr9ngJOaOO5ZqmfHs5o8M1kIMUaPDa41f9R7UKPoYBAoGBAMMs\noOSsfOyivm2zXKajfW0tzElrK5N737u/wR2anfbCHZwQRoV0/z+cnNGfXRLLnFVn\nU6WtkGKSFnR8eHrJ5hAg9w4HJtfsVntfl1kklWiijARkKjrb4ktJXoVy7XzLmL56\nrGDXfjiLn1p+Gf3YKp1TfsTlQN/aYTO7nWtRJ++BAoGBAOLhpI8YfP27v0ulWnHJ\nDMEmJ8ijbu/hue0Ddppcq+K+mxGDgD3fd3KFUE6qP7jTlC+OU6Wlx9LTHYONlx+z\n6sMloeXqLzlZxXnheDtjaDy+t73J7LktL1PyYraEjJ50BHGK6lhj7/OWSYguchSQ\nygL5TOc4fW04M3unI9zrAO6w\n-----END PRIVATE KEY-----\n",
+  "client_email": "python@eastern-archive-424609-f2.iam.gserviceaccount.com",
+  "client_id": "109219969239760809142",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python%40eastern-archive-424609-f2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
